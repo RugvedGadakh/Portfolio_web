@@ -1,24 +1,32 @@
+import as from "../assets/skills/androidstudio.png"
+import css from "../assets/skills/cssimg.jpg"
+import dart from "../assets/skills/dartimg.png"
+import fb from "../assets/skills/firebaseimg.png"
+import fl from "../assets/skills/flutter.png"
+import gh from "../assets/skills/github.png"
+import jet from "../assets/skills/jetpackimg.png"
+import kot from "../assets/skills/kotlin.png"
+import react from "../assets/skills/reactimg.jpg"
+
 const INFO = {
 	main: {
-		title: "Portfolio",
-		name: "XYZ",
-		email: "abcd@gmail.com",
+		title: "Just Me",
+		name: "Palash Rambhia",
+		email: "palashzdk@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		twitter: "https://twitter.com/Palash_Rambhia",
+		github: "https://github.com/Palash2911",
+		linkedin: "https://www.linkedin.com/in/palashrambhia/",
+		gmail: "palashzdk@gmail.com",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer",
+		title: "Palash | Crafting Code -- Building Dreams",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"An enthusiastic techie on a journey to revolutionize the tech world, one line of code at a time, while constantly exploring new horizons to push the boundaries of innovation."
 	},
 
 	about: {
@@ -27,7 +35,7 @@ const INFO = {
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	},
 
-	articles: {
+	achievements: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
@@ -35,48 +43,89 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Aikyam",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Aikyam: Connecting NGOs and Volunteers for a Better World. NGOs post events, volunteers apply. Simple, User-Friendly, Impactful.",
+			logo: [
+				fl, 
+				dart, 
+				fb,
+				gh,
+				as,
+			],
+			linkText: "Discover Aikyam",
+			link: "https://github.com/Palash2911/Aikyam",
 		},
 
 		{
-			title: "Project 2",
+			title: "Rempo",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Rempo: Sell, Bid, and Buy Agricultural Land and Plots. List your huge properties effortlessly on our website.",
+			logo: [
+				kot,
+				as,
+				fb,
+				gh,
+				react,
+			],
+			linkText: "Explore Rempo",
+			link: "https://github.com/Palash2911/Rempo",
 		},
 
 		{
-			title: "Project 3",
+			title: "Athena",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Athena: Your Storytelling Companion. Create captivating stories with ease using OpenAI's powerful API.",
+			logo: [
+				kot,
+				jet,
+				gh,
+				fb,
+				as,
+			],
+			linkText: "Gaze Athena",
+			link: "https://github.com/Palash2911/Athena",
 		},
 
 		{
-			title: "Project 4",
+			title: "T-Vis",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Created T-vis: A Mobile App Enhancing Campus Security. Real-time vehicle tracking, QR code entry, and controlled access.",
+			logo: [
+				fl, 
+				dart, 
+				fb,
+				gh,
+				as,
+			],
+			linkText: "Drive to T-Vis",
+			link: "https://github.com/Palash2911/T-vis",
 		},
 
 		{
-			title: "Project 5",
+			title: "DRAIC Website",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"One of the Creators of DRAIC official Website. Showcasing portfolio of the club including its achievements, projects, and much more.",
+			logo: [
+				react,
+				css,
+				gh
+			],
+			linkText: "Glimpse at Draic",
+			link: "https://github.com/Palash2911/DRAIC-Website",
+		},
+
+		{
+			title: "UN-Toxic",
+			description:
+				"UN-Toxic: Your Quit Smoking Buddy. Track progress, set goals, stay motivated, and more with this Android app.",
+			logo: [
+				kot,
+				as,
+				fb,
+			],
+			linkText: "Intoxicate UN-Toxic",
+			link: "https://github.com/Palash2911/UN-Toxic",
 		},
 	],
 };
