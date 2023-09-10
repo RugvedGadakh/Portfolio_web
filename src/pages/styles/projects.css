@@ -34,3 +34,10 @@
 		width: calc(100% / 2);
 	}
 }
+
+@media (max-width: 600px){
+	.projects-logo{
+		top: 8vh;
+		left: 2%;
+	}
+}

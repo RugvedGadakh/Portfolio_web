@@ -92,3 +92,11 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+
+
+@media (max-width: 600px){
+	.contact-logo{
+		top: 8vh;
+		left: 2%;
+	}
+}
