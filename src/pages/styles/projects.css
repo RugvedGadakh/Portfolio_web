@@ -25,6 +25,13 @@
 	padding-top: 100px;
 }
 
+.WorkArticleSec{
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	padding: 3%;
+	margin-top: 5%;
+
+}
+
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;

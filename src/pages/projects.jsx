@@ -5,6 +5,7 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 import SkillsSection from "../components/Skills/SkillsSection"; 
+import WorkArticles from "./WorkArticle";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import "./styles/projects.css";
@@ -45,6 +46,13 @@ const Projects = () => {
             </div>
             <div className="projects-list">
               <AllProjects />
+            </div>
+          </div>
+
+          <div className="WorkArticleSec">
+            <h2>Articles</h2>
+            <div>
+              <WorkArticles/>
             </div>
           </div>
 
