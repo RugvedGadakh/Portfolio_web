@@ -92,6 +92,30 @@
 	padding-top: 30px;
 }
 
+.download-button-container {
+	text-align: left; 
+	margin-top: 20px;
+  }
+  
+  /* Download Button */
+  .download-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff; 
+	color: #fff; 
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease; 
+	text-align: left; 
+  }
+  
+  .download-button:hover {
+	background-color: #0056b3; 
+  }
+  
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
